@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Dictionary</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading"><i>Your English Dictionary</i></h1>
+      <div class="input-container">
+        <input
+          placeholder="Search a word"
+          type="text"
+          class="input"
+          id="input"
+        />
+        <div class="loading" id="loading"></div>
+      </div>
+      <p class="info-text" id="info-text">Type a word and press Enter</p>
+      <div class="meaning-container" id="meaning-container">
+        <p>
+          <b>Word Title: <span class="title" id="title">___</span></b>
+        </p>
+        <p>
+          <b>Part of Speech: <span class="speech" id="speech">___</span></b>
+        </p>
+        <p>
+          <b>Meaning: <span class="meaning" id="meaning">___</span></b>
+        </p>
+        <p>
+          <b>Example: <span class="example" id="example">___</span></b>
+        </p>
+        <audio src="" controls id="audio"></audio>
+      </div>
+    </div><br>
+    <script src="index.js"></script>
+  </body>
+</html>
